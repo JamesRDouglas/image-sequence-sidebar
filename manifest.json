@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "Image Sequence Sidebar",
+  "version": "1.0",
+
+  "description": "Adds a sidebar that displays similarly numbered images on a webpage",
+
+  "icons": {
+    "128": "file-image-o.png"
+  },
+
+  "sidebar_action": {
+    "default_title": "Images",
+    "default_panel": "sidebar.html",
+    "default_icon": "file-image-o.png"
+  },
+
+  "permissions": ["tabs"],
+
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+I"
+      }
+    }
+  }
+}
